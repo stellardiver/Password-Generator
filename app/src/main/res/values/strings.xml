@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Password Generator</string>
+    <string name="app_nameUpperCase">PASSWORD GENERATOR</string>
+    <string name="btnGenerate">GENERATE</string>
+    <string name="lblOrShake">or Shake your device to generate a new password</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="admob_appid">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_banner">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_interst">ca-app-pub-3940256099942544/1033173712</string>
+
+
+</resources>

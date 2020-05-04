@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="Password Settings">
+
+        <SeekBarPreference
+            android:key="PasswordLength"
+            android:title="Password Length"
+            android:summary="Please set a length for your passwords, default length is 8. Minimum password length can be 4 digits and max length can be 32 digits."
+            android:max="32"
+            android:min="4"
+            android:defaultValue="4"
+            />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="isLowerCaseEnabled"
+            android:summary="Use lower case characters while generating password (a-z)."
+            android:title="Lower Case" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="isUpperCaseEnabled"
+            android:summary="Use upper case characters while generating password (A-Z)."
+            android:title="Upper Case" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="isNumbersEnabled"
+            android:summary="Use numbers while generating passwords (0-9)"
+            android:title="Numbers" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="isSymbolsEnabled"
+            android:summary="Use special symbols while generating passwords (-,_,@,# ...)"
+            android:title="Symbols" />
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:title="Application Settings">
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="isVibrateEnabled"
+            android:summary="Vibrate when new password generated."
+            android:title="Vibration" />
+    </PreferenceCategory>
+
+
+
+    <PreferenceCategory android:title="About Password Generator">
+        <Preference
+            android:key="about_about"
+            android:title="About"
+            android:summary="Password Generator is a simple tool used to generate strong passwords.
+            You can use Password Generator to generate strong passwords for your accounts. You have
+            option to select Lower case, Upper case, Symbols and Numbers while generating passwords.
+            Use the button or shake your device to generate new strong passwords."
+            />
+
+        <Preference
+            android:key="about_developer"
+            android:title="Developer"
+            android:summary="Sinan SALIH"
+            />
+
+    </PreferenceCategory>
+</PreferenceScreen>
